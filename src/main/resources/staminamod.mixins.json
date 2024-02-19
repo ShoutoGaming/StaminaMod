@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "package": "net.kav.staminamod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "server.ArmorEquipMixin",
+    "server.BrewingRecipeRegistryMixin",
+    "server.LivingentityMixin",
+    "server.ModEntityDataSaverMixin",
+    "server.WitchEntityMixin"
+  ],
+  "client": [
+    "client.ClientPlayerEntityMixin",
+    "client.ClientPlayerMixin",
+    "client.ClientWorldMixin",
+    "client.doAttackMixin",
+    "client.RenderOverlayMixin",
+    "client.CameraAccessor",
+    "client.MixinGameRenderer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
