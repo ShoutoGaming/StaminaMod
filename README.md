@@ -1,0 +1,2 @@
+# StaminaMod
+StaminaMod By ShoutoGaming
